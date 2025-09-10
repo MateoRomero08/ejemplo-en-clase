@@ -5,8 +5,8 @@ Este proyecto implementa un flujo **ELT (Extract, Load, Transform)** para limpia
 
 ## Pasos
 1. **Extract** → Se lee un CSV con pandas (`extract/`).
-2. **Load** → Se cargan los datos crudos en una base SQLite (`load/`).
-3. **Transform** → Se limpian los datos (nulos, duplicados, columnas) (`transform/`).
+2. **Transform** → Se limpian los datos (nulos, duplicados, columnas) (`transform/`).
+3. **Load** → Se cargan los datos limpios en una base SQLite (`load/`).
 
 ## Ejecución
 ```bash
