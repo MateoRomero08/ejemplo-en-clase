@@ -1,7 +1,7 @@
 import sqlite3
 import pandas as pd
 
-def load_to_sqlite(df: pd.DataFrame, db_name="data_lake.db", table="raw_data"):
+def load_to_sqlite(df: pd.DataFrame, db_name="data_lake.db", table="clean_data"):
     """
     CARGAR los datos ya modificados y limpios a una base SQLite (data lake local).
     - df: DataFrame que contiene los datos extraídos
